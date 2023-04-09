@@ -1,0 +1,35 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  margin: 15px 0;
+  column-gap: 4px;
+}
+
+.filter {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #eef0f7;
+  background-color: #535354;
+  border: none;
+}
+
+.containerCards {
+  column-count: 3;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 15px;
+}
